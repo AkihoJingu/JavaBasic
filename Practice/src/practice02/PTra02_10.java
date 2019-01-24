@@ -22,5 +22,12 @@ public class PTra02_10 {
 		 * ※ プログラムは何行書いても良いです
 		 */
 
+		int a = (coffee * 2 + snack); //合計金額
+		double b = a * 0.08; //消費税
+		double c = a + b; //総計
+		int d = (int) (moneyInHand - c); //所持金
+
+		System.out.println(d);
+
 	}
 }
