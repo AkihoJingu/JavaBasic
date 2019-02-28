@@ -18,5 +18,72 @@ public class PTra03_09 {
 		 *
 		 * ※ プログラムは何行書いても良いです
 		 */
+
+		System.out.println("0～6の整数を入力してください");
+
+		java.util.Scanner scanner = new java.util.Scanner(System.in);
+
+		int num = scanner.nextInt();
+
+		switch (num) {
+		case 0:
+			System.out.println(num + "：日曜");
+			break;
+		case 1:
+			System.out.println(num + "：月曜");
+			break;
+		case 2:
+			System.out.println(num + "：火曜");
+			break;
+		case 3:
+			System.out.println(num + "：水曜");
+			break;
+		case 4:
+			System.out.println(num + "：木曜");
+			break;
+		case 5:
+			System.out.println(num + "：金曜");
+			break;
+		case 6:
+			System.out.println(num + "：土曜");
+			break;
+		default:
+			System.out.println("0～6の整数を入力してください");
+		}
+
+		//		if (num == 0) {
+		//
+		//			System.out.println(num + "：日曜");
+		//
+		//		} else if (num == 1) {
+		//
+		//			System.out.println(num + "：月曜");
+		//
+		//		} else if (num == 2) {
+		//
+		//			System.out.println(num + "：火曜");
+		//
+		//		} else if (num == 3) {
+		//
+		//			System.out.println(num + "：水曜");
+		//
+		//		} else if (num == 4) {
+		//
+		//			System.out.println(num + "：木曜");
+		//
+		//		} else if (num == 5) {
+		//
+		//			System.out.println(num + "：金曜");
+		//
+		//		} else if (num == 6) {
+		//
+		//			System.out.println(num + "：土曜");
+		//
+		//		} else {
+		//
+		//			System.out.println("0～6の整数を入力してください");
+		//
+		//		}
+
 	}
 }

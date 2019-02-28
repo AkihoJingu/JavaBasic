@@ -23,7 +23,7 @@ public class PTra03_08 {
 		// ※ コマンドプロンプトで入力された値が、数字ではなかった場合はプログラムがエラーになります
 		int num = scanner.nextInt();
 
-		int money = 1000;	// 所持金
+		int money = 1000; // 所持金
 
 		//---------------------ここから本題-----------------------
 		/*
@@ -35,6 +35,23 @@ public class PTra03_08 {
 		 *
 		 * ※ プログラムは何行書いても良いです
 		 */
+		int orange = 150;
+		int apple = 160;
+		int coffee = 200;
+
+		if (num == 1) {
+
+			System.out.println("所持金:" + (money - orange));
+
+		} else if (num == 2) {
+
+			System.out.println("所持金:" + (money - apple));
+
+		} else if (num == 3) {
+
+			System.out.println("所持金:" + (money - coffee));
+
+		}
 
 	}
 }

@@ -8,11 +8,11 @@ package practice03;
 
 public class PTra03_06 {
 	public static void main(String[] args) {
-		int limitNumber = 100;
+		int limitrandomber = 100;
 
 		// ランダムで数字を生成するプログラムです。
-		// 下記の命令を実行すると変数randomに、0以上、変数limitNumber未満の数字がランダムで代入されます
-		int random = new java.util.Random().nextInt(limitNumber + 1);
+		// 下記の命令を実行すると変数randomに、0以上、変数limitrandomber未満の数字がランダムで代入されます
+		int random = new java.util.Random().nextInt(limitrandomber + 1);
 
 		//---------------------ここから本題-----------------------
 		/*
@@ -25,6 +25,19 @@ public class PTra03_06 {
 		 *
 		 * ※ プログラムは何行書いても良いです
 		 */
+		if (random >= 71 && random < 101) {
+
+			System.out.println(random + "：☆☆☆☆☆");
+
+		} else if (random >= 31 && random < 71) {
+
+			System.out.println(random + "：☆☆☆☆");
+
+		} else {
+
+			System.out.println(random + "：☆☆☆");
+
+		}
 
 	}
 }
