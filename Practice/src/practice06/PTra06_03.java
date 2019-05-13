@@ -10,6 +10,9 @@ public class PTra06_03 {
 	public static void main(String[] args) {
 
 		// ★ for文を使って、以下のような出力になるようにしてください
+		for(int i = 0; i < 5; i++) {
+			System.out.println("■");
+		}
 		/*
 		 * 出力結果例
 		 * -----------------------------------
